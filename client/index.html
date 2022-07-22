@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>BANK desentralized</title>
+</head>
+<body>
+    <!-- <button class="btn btn-danger">delete</button> -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body bg-dark">
+                    <h1>DAPP</h1>
+                    <h6 class="text-muted"> Aplicacion Desentraliada</h6>
+                    <span>Wallet</span>
+                    <span id="account"></span>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <noscript>You need to enable JavaScript to run this app.</noscript>
+                <div id="root"></div>  
+                
+            </div>
+        </div>
+    
+    </div>
+    <!-- scripts -->
+    <!-- libreria de truffle para llamar a los contratos inteligentes desde el frontend con truffle contract -->
+    <script src="./libs/@truffle/contract/dist/truffle-contract.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./App.js"></script>
+    
+</body>
+</html>
