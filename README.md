@@ -1,4 +1,4 @@
 # app_bank_lg
 bank
-#testing script
+# testing script
 truffle exec ./scripts/test.js
